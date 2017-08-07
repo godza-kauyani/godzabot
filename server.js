@@ -7,4 +7,5 @@ app.use(express.static(__dirname));
 app.get('/',(req,res)=>{
 	res.send ("Miss you my love");
 });
-console.log(port)
+
+app.listen(port);
